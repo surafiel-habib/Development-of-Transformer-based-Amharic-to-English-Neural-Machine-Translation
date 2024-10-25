@@ -11,7 +11,7 @@ This project introduces a Transformer-based Amharic-to-English neural machine tr
 
 Our model demonstrates a substantial improvement over the previous state-of-the-art in Amharic-to-English neural machine translation benchmarks:
 
-- **BLEU Score**: Achieved a BLEU score of 40.59, marking a 7% improvement over the prior benchmark.
+- **BLEU Score**: Achieved a BLEU score 40.59, 7% higher than the prior state-of-the-art benchmark.
 - **Best Regularization**: The combination of L2 regularization with dropout applied to the point-wise feed-forward network yielded the highest translation performance.
 - **Parameter Efficiency**: Reduced model parameters from 75 million to 5.4 million, achieving significant computational efficiency while maintaining high accuracy.
 
