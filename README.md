@@ -1,4 +1,4 @@
-# Development of Transformer-based Amharic to English Neural Machine Translation
+# Development of a Transformer-based Amharic to English Neural Machine Translation
 
 Amharic, the official working language of the Federal Government of Ethiopia, is a Semitic language known for its morphological complexity and limited digital resources. These characteristics pose substantial challenges for natural language processing tasks, particularly in machine translation.
 
