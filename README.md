@@ -1,10 +1,10 @@
 # Development of Transformer-based Amharic to English Neural Machine Translation
 
-Amharic, the official working language of the Federal Government of Ethiopia, is a Semitic language known for its morphological complexity and limited digital resources. These characteristics pose substantial challenges for natural language processing (NLP) tasks, particularly in machine translation (MT).
+Amharic, the official working language of the Federal Government of Ethiopia, is a Semitic language known for its morphological complexity and limited digital resources. These characteristics pose substantial challenges for natural language processing tasks, particularly in machine translation.
 
-This project introduces a Transformer-based Amharic-to-English neural machine translation model designed to address these challenges. Key features of the model include:
+This research introduces a Transformer-based Amharic-to-English neural machine translation model designed to address these challenges. Key features of the model include:
 
-- **Character-level Embeddings**: By using character-level embeddings, the model captures Amharic’s complex morphological structure and handles out-of-vocabulary (OOV) words more effectively.
+- **Character-level Embeddings**: By using character-level embeddings, the model captures Amharic’s complex morphological structure and handles out-of-vocabulary words more effectively.
 - **Advanced Regularization Techniques**: The model integrates dropout, L1, L2, and Elastic Net regularizations to improve training stability and generalization.
 
 ## Performance Highlights
@@ -23,6 +23,6 @@ The proposed approach provides insights into addressing the unique challenges of
 
 This research opens new avenues for future work, including:
 
-- Exploring multilingual models for low-resource languages.
-- Optimizing the attention mechanism within the Transformer architecture.
-- Applying hybrid regularization techniques to further enhance model performance.
+- Exploration of multilingual models for low-resource languages.
+- Optimization of the attention mechanism within the Transformer architecture.
+- Broader application of hybrid regularization techniques in low-resource settings to enhance model performance within the Transformer model architecture.
