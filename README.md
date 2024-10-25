@@ -9,7 +9,7 @@ This research introduces a Transformer-based Amharic-to-English neural machine t
 
 ## Performance Highlights
 
-Our model demonstrates a substantial improvement over the previous state-of-the-art in Amharic-to-English neural machine translation benchmarks:
+The model achieves substantial advancements over the previous state-of-the-art in Amharic-to-English neural machine translation benchmarks:
 
 - **BLEU Score**: Achieved a BLEU score 40.59, 7% higher than the prior state-of-the-art benchmark.
 - **Best Regularization**: The combination of L2 regularization with dropout applied to the point-wise feed-forward network yielded the highest translation performance.
