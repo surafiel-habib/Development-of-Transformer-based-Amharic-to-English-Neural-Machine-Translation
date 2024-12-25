@@ -1,28 +1,37 @@
-# Development of a Transformer-Based Model for Amharic-to-English Neural Machine Translation
+# Transformer-Based Amharic-to-English Machine Translation with Character Embedding and Combined Regularization Techniques
 
-Amharic, the official working language of the Federal Government of Ethiopia, is a Semitic language known for its morphological complexity and limited digital resources. These characteristics pose substantial challenges for natural language processing tasks, particularly in machine translation.
+Amharic, the official working language of the Federal Government of Ethiopia, is a Semitic language characterized by its morphological complexity and limited digital resources. These attributes pose significant challenges for natural language processing tasks, particularly machine translation.
 
-This research introduces a Transformer-based Amharic-to-English neural machine translation model designed to address these challenges. Key features of the model include:
+This research introduces a Transformer-based Amharic-to-English neural machine translation model tailored to address these challenges. Key features of the model include:
 
-- **Character-level Embeddings**: By using character-level embeddings, the model captures Amharic’s complex morphological structure and handles out-of-vocabulary words more effectively.
-- **Advanced Regularization Techniques**: The model integrates dropout, L1, L2, and Elastic Net regularizations to improve training stability and generalization.
+- **Character-Level Embeddings: Captures Amharic’s intricate morphological structure and effectively handles out-of-vocabulary words.
+- **Combined Regularization Techniques: Employs dropout with Elastic Net, L1, and L2 regularizations in the point-wise feed-forward network to enhance training stability and model generalization.
 
 ## Performance Highlights
 
-The model achieves substantial advancements over the previous state-of-the-art in Amharic-to-English neural machine translation benchmarks:
+The proposed model demonstrates substantial improvements over previous state-of-the-art methods for Amharic-to-English neural machine translation benchmarks:
 
-- **BLEU Score**: Achieved a BLEU score 40.59, 7% higher than the prior state-of-the-art benchmark.
-- **Best Regularization**: The combination of L2 regularization with dropout applied to the point-wise feed-forward network yielded the highest translation performance.
-- **Parameter Efficiency**: Reduced model parameters from 75 million to 5.4 million, achieving significant computational efficiency while maintaining high accuracy.
+- **BLEU Score: Achieved a BLEU score of 40.59, which is 7% higher than the prior state-of-the-art benchmark.
+- **Best Regularization: The combination of L2 regularization with dropout applied to the point-wise feed-forward network achieved the best translation performance.
+- **Parameter Efficiency: Reduced the model's parameters from 75 million to 5.4 million, significantly improving computational efficiency while maintaining high accuracy.
 
 ## Experimental Insights
 
-The proposed approach provides insights into addressing the unique challenges of low-resource, morphologically rich languages like Amharic. Extensive experiments demonstrate improvements in test accuracy, reduction in loss, and enhanced translation fidelity over word-level embedding models.
+The research addresses the unique challenges posed by low-resource and morphologically rich languages like Amharic. Extensive experiments showcase:
+
+- Improvements in test accuracy and reduction in loss.
+- Enhanced translation fidelity compared to models using word-level embeddings.
+- Insights into leveraging character-level embeddings and combined regularization techniques to overcome challenges associated with low-resource languages.
 
 ### Future Directions
 
-This research opens new avenues for future work, including:
+This research lays the groundwork for future studies, including:
 
-- Exploration of multilingual models for low-resource languages.
-- Optimization of the attention mechanism within the Transformer architecture.
-- Broader application of hybrid regularization techniques in low-resource settings to enhance model performance within the Transformer model architecture.
+- Exploring multilingual models to improve performance on low-resource languages.
+- Optimizing attention mechanisms within Transformer architectures for better efficiency and accuracy.
+- Broadening the application of hybrid regularization techniques in neural machine translation.
+
+### Citation
+
+If you use this research or code in your work, cite the corresponding paper: DOI: 10.1109/ACCESS.2024.3521985﻿
+
