@@ -23,7 +23,7 @@ The research addresses the unique challenges posed by low-resource and morpholog
 - Enhanced translation fidelity compared to models using word-level embeddings.
 - Insights into leveraging character-level embeddings and combined regularization techniques to overcome challenges associated with low-resource languages.
 
-### Future Directions
+## Future Directions
 
 This research lays the groundwork for future studies, including:
 
@@ -33,5 +33,5 @@ This research lays the groundwork for future studies, including:
 
 ### Citation
 
-If you use this research or code in your work, cite the corresponding paper: DOI: 10.1109/ACCESS.2024.3521985﻿
+If you use this research or code in your work, cite the corresponding paper: [DOI: 10.1109/ACCESS.2024.3521985 (https://doi.org/10.1109/ACCESS.2024.3521985)
 
